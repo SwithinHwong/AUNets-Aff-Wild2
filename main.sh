@@ -102,7 +102,7 @@ do
       if [ "$TEST_TXT" = true ]; then command_train+=" --mode test --TEST_TXT"; fi
       if [ "$TEST_PTH" = true ]; then command_train+=" --mode test --TEST_PTH"; fi                      
       echo $command_train
-      eval $command_train
+      # eval $command_train
       echo ""
     done
   done
